@@ -5,10 +5,10 @@
 #include <memory>
 #include <cstring>
 
-class DualsenseBase {
+class DualSenseBase {
   public:
-    DualsenseBase();
-    ~DualsenseBase();
+    DualSenseBase();
+    ~DualSenseBase();
     bool isConnected();
     void SetLED(uint8_t red_value, uint8_t green_value, uint8_t blue_value);
     void SetMotorIntensity(uint8_t righe_motor_intensity_, uint8_t left_motor_intensity_);
