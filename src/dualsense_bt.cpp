@@ -1,4 +1,4 @@
-#include "dualsense_bt.hpp"
+#include "dualsense/dualsense_bt.hpp"
 #include "checksum/checksum.cpp"
 
 void DualSenseBT::WriteReport() {

@@ -1,7 +1,7 @@
 #ifndef DUALSENSE_USB_HPP_
 #define DUALSENSE_USB_HPP_
 
-#include "dualsense/dualsense_base.hpp"
+#include "dualsense_base.hpp"
 #include <cstring>
 
 class DualSenseUSB : public DualSenseBase {

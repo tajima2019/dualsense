@@ -1,4 +1,4 @@
-#include "dualsense_usb.hpp"
+#include "dualsense/dualsense_usb.hpp"
 
 void DualSenseUSB::WriteReport() {
   if (!isConnected()) return;
